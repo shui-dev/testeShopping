@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  
+  <div class="container">
+    <header>
+      <div class="title">
+        <a href="/">Home</a>
+      </div>
+      <div class="icon-cart">
+        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.3L19 7H7.3"/>
+        </svg>
+        <span>0</span>
+      </div>
+    </header>
+    <div id="contentTab">
+      Content in template file
+    </div>
+  </div>
+  <div class="cartTab">
+    <h1>Shopping Cart</h1>
+    <div class="listCart">
+      show item here
+    </div>
+    <div class="btn">
+      <button class="close">
+        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+          <path fill-rule="evenodd" d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0Zm7.7-3.7a1 1 0 0 0-1.4 1.4l2.3 2.3-2.3 2.3a1 1 0 1 0 1.4 1.4l2.3-2.3 2.3 2.3a1 1 0 0 0 1.4-1.4L13.4 12l2.3-2.3a1 1 0 0 0-1.4-1.4L12 10.6 9.7 8.3Z" clip-rule="evenodd"/>
+        </svg>
+      </button>
+      <button class="checkOut">
+        Check Out
+      </button>
+    </div>
+  </div>
+
+  <script src="./js/cart.js"></script>
+</body>
+</html>
